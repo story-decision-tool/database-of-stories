@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1fdf3;
+  color: #1f3d1f;
+}
+header {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+}
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+  background: #e0f5e9;
+}
+.filters select, .filters input {
+  padding: 0.5em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 150px;
+}
+main {
+  padding: 2em;
+  display: grid;
+  gap: 1.5em;
+  max-width: 1000px;
+  margin: auto;
+}
+.story-card {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 128, 0, 0.1);
+}
+.story-card h2 {
+  margin-top: 0;
+  color: #006400;
+}
+.story-card .meta {
+  font-size: 0.9em;
+  color: #555;
+}
+.story-card audio {
+  width: 100%;
+  margin-top: 0.5em;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #2e8b57;
+  color: white;
+}
